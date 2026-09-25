@@ -1,0 +1,25 @@
+Pk une boucle python est plus rapide que la vectorisation
+Différence entre une table et un dataframe (pour une table on utilise une clé primaire et pour une dataframe on utilise les colonnes)
+
+les types en pythons: list, set, dictionnaire, tuple 
+
+Toujours evaluer le cout et le temps
+
+
+loc = selectionner les colonnes  (il faut saisir d'abord les lignes puis le nom chaque colonnes) ex: # print(sales.loc[0:2, ['id_commande', 'quantite', 'montant']]) #
+
+iloc = selection par positions / (on donne les lignes pour les ligne (le dernier indice n'est pris en compte pour les lignes) puis les indices des colonnes pour eviter les nons)  Ex  # :print(sales.iloc[0:2, [0, 5, -1]]) #
+
+Faire une modifiication en data frame implique une copie avant la modification de la data frame 
+
+head(int n ) = les n premières les lignes de la colonne du data frame
+
+
+
+
+
+
+
+
+
+NB: Creuser avec les CTE et fonctions fenetres
